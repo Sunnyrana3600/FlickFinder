@@ -1,9 +1,22 @@
+/* variables */
+:root{
+    --background-color : #1C1C1C;
+    --primary-color : #EDEDED;
+    --secondary-color : #9E9E9E;
+    --primary-acent : #2196F3;
+    --seconday-accent : #FF9800;
+    --hover-status : #4CAF50; 
+}
+
+
 * {
     margin: 0;
     padding: 0;
 } 
 
-
+body{
+    background-color: var(--background-color);
+}
 .movie-poster {
     height: 350px;
     width: 200px;
