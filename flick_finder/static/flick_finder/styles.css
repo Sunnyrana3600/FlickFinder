@@ -1,3 +1,18 @@
-body{
-    background-color: black;
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+
+.movie-poster {
+    height: 350px;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    border-radius: 8px;     /* Optional: rounded corners */
+  }
+  
+  .movie-poster:hover {
+    transform: scale(1.1);           /* Scale the image up by 10% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Add a shadow for depth */
+    cursor: pointer;                /* Change cursor to pointer to indicate it's interactive */
 }
